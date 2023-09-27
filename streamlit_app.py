@@ -68,7 +68,7 @@ if streamlit.button('Get Fruit Load List'):
     
 #work with snowflake connector
 # don’t run anything past here while we troubleshoot
-streamlit.stop()
+# streamlit.stop()
 #import snowflake.connector;
 streamlit.text("The fruit load list contains:")
 # Allow the end user to add a fruit to the list
